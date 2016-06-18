@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="purple_background">#4592c8</color>
+  <color name="action_bar_text_color">#ffffff</color>
+  <color name="orange_background">#F75733</color>
+
+  <color name="colorPrimary">#4592c8</color>
+  <color name="colorPrimaryDark">#1e6ba4</color>
+  <color name="colorAccent">#FF4081</color>
+
+</resources>
