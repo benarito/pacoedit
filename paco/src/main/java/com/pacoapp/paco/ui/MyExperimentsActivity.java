@@ -422,6 +422,7 @@ public class MyExperimentsActivity extends AppCompatActivity implements
     String header = getString(R.string.your_current_experiments);
     listHeader.setText(header);
     listHeader.setTextSize(16);
+    listHeader.setVisibility(View.GONE);
     listHeader.setBackgroundColor(0xffdddddd);
     return listHeader;
   }

@@ -29,6 +29,7 @@
             android:orientation="vertical" >
 
             <TextView
+                android:visibility="gone"
                 android:id="@+id/ExperimentListTitle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -50,10 +51,20 @@
                 android:visibility="gone" />
 
             <ListView
+                android:visibility="gone"
                 android:id="@+id/find_experiments_list"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_gravity="center|top" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="32sp"/>
         </LinearLayout>
 
         <LinearLayout
